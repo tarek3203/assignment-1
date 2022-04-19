@@ -8,13 +8,18 @@ h1{
     font-size: 55px;
     font-weight: 200;
 }
+h2{
+    font-size: 30px;
+}
 p{
     font-size: 20px;
 }
 #f-i{
     display: flex;
     margin-bottom: 50px;
-    
+}
+#s-i{
+    margin-bottom: 20px;
 }
 .f-s{
     width: 40%;
@@ -53,4 +58,14 @@ p{
     border-radius: 40px 40px 40px 40px;
     font-weight: 900;
     font-size: 20px;
+}
+.container-2{
+    position: relative;
+    text-align: center;
+}
+.t-s{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 25%;
 }
