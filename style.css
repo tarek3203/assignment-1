@@ -70,9 +70,9 @@ p{
 .recipie-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: 1fr 2fr 1fr; */
     gap: 50px 50px;
     padding: 0px 7%;
+    margin-bottom: 50px;
 }
  .recipie{
     box-shadow: 5px 10px 20px 5px #888888;
@@ -80,6 +80,19 @@ p{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* border: 1px solid gray; */
     padding: 20px 20px;
+}
+.recipie-container-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0px 100px;
+    padding: 0px 7%;
+    margin-left: 70px;
+    box-shadow: 5px 10px 20px 5px #888888;
+    margin-right: 70px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
 }
