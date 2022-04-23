@@ -61,21 +61,25 @@ p{
     font-weight: 900;
     font-size: 20px;
 }
-#container-2{
-    position: relative;
+.t-s-1{
     text-align: center;
-    margin-bottom: 10px;
-}
-.t-s{
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    right: 25%;
 }
 .i-4{
-    width: 70%;
+    width: 100%;
 }
-.recipie{
+.recipie-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 1fr 2fr 1fr; */
+    gap: 50px 50px;
+    padding: 0px 7%;
+}
+ .recipie{
+    box-shadow: 5px 10px 20px 5px #888888;
+    border-radius: 20px;
     display: flex;
-    margin-left: 40px;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid gray; */
+    padding: 20px 20px;
 }
